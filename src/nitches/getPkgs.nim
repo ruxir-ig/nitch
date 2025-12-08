@@ -7,7 +7,7 @@ proc getPkgs*(distroId: string): string =
   case distroId:
   of "arch":
     result = getPacmanPkgs()
-  
+
   of "artix":
     result = getPacmanPkgs()
 
@@ -21,6 +21,9 @@ proc getPkgs*(distroId: string): string =
     result = getPacmanPkgs()
 
   of "garuda":
+    result = getPacmanPkgs()
+
+  of "cachyos":
     result = getPacmanPkgs()
 
   of "fedora":
