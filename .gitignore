@@ -1,3 +1,13 @@
 # Compiled binaries
 /nitch
 /nitchNoNerd
+
+# Packaging artifacts
+/pkg/
+/nitch-*.tar.gz
+/src/nitch-*.tar.gz
+/src/nitch-*/
+
+# Arch package artifacts
+/*.pkg.tar.zst
+/*.pkg.tar.zst.sig

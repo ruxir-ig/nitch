@@ -18,19 +18,19 @@ proc drawInfo*(asciiArt: bool) =
     # (fgRed, nitchLogo)
 
   const  # icons before cotegores (non-Nerd Font)
-    userIcon   = "|> "  # non-nerd alternative
-    hnameIcon  = "|> "  # non-nerd alternative
-    distroIcon = "|> "  # non-nerd alternative
-    kernelIcon = "|> "  # non-nerd alternative
-    uptimeIcon = "|> "  # non-nerd alternative
-    shellIcon  = "|> "  # non-nerd alternative
-    pkgsIcon   = "|> "  # non-nerd alternative
-    ramIcon    = "|> "  # non-nerd alternative
-    colorsIcon = "-> "  # non-nerd alternative
+    userIcon   = "> "  # non-nerd alternative (1 char + space = 2 cols)
+    hnameIcon  = "> "  # non-nerd alternative
+    distroIcon = "> "  # non-nerd alternative
+    kernelIcon = "> "  # non-nerd alternative
+    uptimeIcon = "> "  # non-nerd alternative
+    shellIcon  = "> "  # non-nerd alternative
+    pkgsIcon   = "> "  # non-nerd alternative
+    ramIcon    = "> "  # non-nerd alternative
+    colorsIcon = "> "  # non-nerd alternative
     # please insert any char after the icon
     # to avoid the bug with cropping the edge of the icon
 
-    dotIcon = "■"  # non-nerd alternative
+    dotIcon = "#"  # non-nerd alternative
     # icon for demonstrate colors
 
   const  # categories
