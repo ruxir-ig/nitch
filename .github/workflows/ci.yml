@@ -48,9 +48,10 @@ jobs:
       - name: Validate .SRCINFO matches PKGBUILD (run in Arch container)
         run: |
           docker pull archlinux:latest
-          docker run --rm -v "${{ github.workspace }}":/work -w /work archlinux:latest /bin/bash -lc "\
+          docker run --rm -e GITHUB_REPOSITORY='${{ github.repository }}' -e GITHUB_SHA='${{ github.sha }}' archlinux:latest /bin/bash -lc "\
             pacman -Sy --noconfirm --needed base-devel git nim && \
             useradd -m builder && \
-            chown -R builder:builder /work && \
-            su builder -c 'cd /work && makepkg --printsrcinfo > .SRCINFO.new' && \
+            git clone https://$GITHUB_REPOSITORY /tmp/nitch && \
+            cd /tmp/nitch && git checkout $GITHUB_SHA || true && \
+            su builder -c 'cd /tmp/nitch && makepkg --printsrcinfo > .SRCINFO.new' && \
             diff -u .SRCINFO .SRCINFO.new || (echo '.SRCINFO mismatch' && exit 1)"
