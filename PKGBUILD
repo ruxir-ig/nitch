@@ -1,9 +1,9 @@
-# Maintainer: ruxir-ig <ruchirkalokhe@gmail.com>
+# Maintainer: ruxir-ig <your-email@example.com>
 # Contributor: unxsh (original author)
 
 pkgbase=nitch
 pkgname=('nitch' 'nitch-nonerd')
-pkgver=0.2.3
+pkgver=0.2.2
 pkgrel=1
 pkgdesc="Incredibly fast system fetch written in Nim"
 arch=('x86_64')
@@ -11,7 +11,7 @@ url="https://github.com/ruxir-ig/nitch"
 license=('MIT')
 makedepends=('nim' 'nimble')
 source=("$pkgbase-$pkgver.tar.gz::https://github.com/ruxir-ig/nitch/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('fbacfc3926a857d1f688f0e65fd0b68bfaea6f7c5d59a7606d3fbbb87bf1428c')
+sha256sums=('SKIP')  # Update with actual checksum after release
 
 build() {
     cd "$pkgbase-$pkgver"
