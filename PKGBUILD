@@ -1,9 +1,9 @@
-# Maintainer: ruxir-ig <your-email@example.com>
+# Maintainer: ruxir-ig <ruchirkalokhe@gmail.com.com>
 # Contributor: unxsh (original author)
 
 pkgbase=nitch
 pkgname=('nitch' 'nitch-nonerd')
-pkgver=0.2.2
+pkgver=0.2.4
 pkgrel=1
 pkgdesc="Incredibly fast system fetch written in Nim"
 arch=('x86_64')

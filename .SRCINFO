@@ -1,13 +1,13 @@
 pkgbase = nitch
 	pkgdesc = Incredibly fast system fetch written in Nim
-	pkgver = 0.2.2
+	pkgver = 0.2.4
 	pkgrel = 1
 	url = https://github.com/ruxir-ig/nitch
 	arch = x86_64
 	license = MIT
 	makedepends = nim
 	makedepends = nimble
-	source = nitch-0.2.2.tar.gz::https://github.com/ruxir-ig/nitch/archive/refs/tags/v0.2.2.tar.gz
+	source = nitch-0.2.4.tar.gz::https://github.com/ruxir-ig/nitch/archive/refs/tags/v0.2.4.tar.gz
 	sha256sums = SKIP
 
 pkgname = nitch

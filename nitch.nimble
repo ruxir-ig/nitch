@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.2.3"
+version       = "0.2.4"
 author        = "ruxir-ig"
 description   = "System fetch in nim lang"
 license       = "MIT"
