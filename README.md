@@ -29,21 +29,21 @@
 - **Lightweight** — ~150KB binary
 - **Multi-Distro** — Supports Arch, CachyOS, Debian, Ubuntu, Fedora, and more
 
-## Preview
+## Preview (without logo)
 
 **Nerd Font version:**
 ```
   ╭───────────╮
-  │   user    │ ruxir
-  │   hname   │ odysseus
+  │   user   │ ruxir
+  │   hname  │ odysseus
   │ 󰻀  distro │ CachyOS
   │ 󰌢  kernel │ 6.18.2-2-cachyos
-  │   uptime  │ 1h 30m
-  │   shell   │ zsh
+  │   uptime │ 2h 43m
+  │   shell  │ zsh
   │ 󰏖  pkgs   │ 1536
-  │ 󰍛  memory │ 4096 | 16384 MiB
+  │ 󰍛  memory │ 8512 | 15708 MiB
   ├───────────┤
-  │ 󰏘  colors │        
+  │ 󰏘  colors │        
   ╰───────────╯
 ```
 
