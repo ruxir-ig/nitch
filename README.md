@@ -1,5 +1,7 @@
 <div align="center">
 
+> **🍴 Fork Notice:** This is a maintained fork of the original [nitch by unxsh](https://github.com/unxsh/nitch). The original project appears to be unmaintained, so this fork continues development with bug fixes and new features.
+
 <img src="https://cdn.discordapp.com/attachments/955362477137362954/996769449480826971/2022-07-13_16-25.png" width="350px">
 
 # `NiTch`
@@ -9,15 +11,15 @@
 </h3>
 <br>
 
-![Maintenance](https://shields.io/maintenance/yes/2022?style=for-the-badge)
-![License](https://shields.io/github/license/unxsh/nitch?style=for-the-badge)
-![Commits](https://shields.io/github/commit-activity/m/unxsh/nitch?style=for-the-badge)
+![Maintenance](https://shields.io/maintenance/yes/2026?style=for-the-badge)
+![License](https://shields.io/github/license/ruxir-ig/nitch?style=for-the-badge)
+![Commits](https://shields.io/github/commit-activity/m/ruxir-ig/nitch?style=for-the-badge)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/unxsh/nitch?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/unxsh/nitch?style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/unxsh/nitch?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/ruxir-ig/nitch?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/ruxir-ig/nitch?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ruxir-ig/nitch?style=for-the-badge)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/unxsh/nitch?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ruxir-ig/nitch?style=for-the-badge)
 
 </div>
 
@@ -42,7 +44,7 @@ why `nim👑`? because it's fast and simple
 
 # Installation ☁️
 ```fish
-wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
+wget https://raw.githubusercontent.com/ruxir-ig/nitch/main/setup.sh && sh setup.sh
 ```
 
 # Usage 🪨
@@ -150,7 +152,7 @@ proc drawInfo*() =
 
 ### 1) clone repo
 ```fish
-git clone https://github.com/unxsh/nitch.git
+git clone https://github.com/ruxir-ig/nitch.git
 ```
 ### 2) change dir to `nitch`
 ```fish
