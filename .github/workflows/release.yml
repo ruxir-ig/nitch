@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install choosenim (Nim toolchain)
+        run: |
+          curl https://nim-lang.org/choosenim/init.sh -sSf | sh -s -- -y
+          echo "$HOME/.nimble/bin" >> $GITHUB_PATH
+          echo "$HOME/.nim/bin" >> $GITHUB_PATH
+
+      - name: Build Nerd Font binary
+        run: nimble build -d:release -y
+
+      - name: Build Non-Nerd Font binary
+        run: nim c -d:release -o:nitchNoNerd src/nitchNoNerd.nim
+
+      - name: Create release and upload assets
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          files: |
+            nitch
+            nitchNoNerd
