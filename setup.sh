@@ -1,7 +1,7 @@
 #!/bin/sh
 
-linkNerd="https://github.com/unxsh/nitch/releases/download/0.1.6/nitchNerd"
-linkNoNerd="https://github.com/unxsh/nitch/releases/download/0.1.6/nitchNoNerd"
+linkNerd="https://github.com/ruxir-ig/nitch/releases/download/0.2.2/nitch"
+linkNoNerd="https://github.com/ruxir-ig/nitch/releases/download/0.2.2/nitchNoNerd"
 
 sudo rm -fv /usr/local/bin/nitch
 
