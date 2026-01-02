@@ -11,7 +11,7 @@ url="https://github.com/ruxir-ig/nitch"
 license=('MIT')
 makedepends=('nim' 'nimble')
 source=("$pkgbase-$pkgver.tar.gz::https://github.com/ruxir-ig/nitch/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')  # Update with actual checksum after release
+sha256sums=('8e386ba7cbf53cc1a5017d209e5b369cbd16df3f47f7e3cf1af9bb28d12aec44')  # Release tarball sha256
 
 build() {
     cd "$pkgbase-$pkgver"
