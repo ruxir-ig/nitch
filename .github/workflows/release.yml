@@ -44,7 +44,7 @@ jobs:
           release_name: ${{ github.ref_name }}
           body: "Release ${{ github.ref_name }}"
           draft: false
-          prerelease: false
+          prerelease: ${{ contains(github.ref_name, '-ci-test') }}
 
       - name: Upload release assets
         uses: softprops/action-gh-release@v1
